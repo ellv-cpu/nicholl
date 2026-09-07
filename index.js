@@ -1,3 +1,4 @@
+require("dotenv").config();
 const { TelegramClient, Api } = require("telegram");
 const { StringSession } = require("telegram/sessions");
 const { NewMessage } = require("telegram/events");
